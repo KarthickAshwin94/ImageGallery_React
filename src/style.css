@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container_main{
+   
+    gap:10px;
+    margin:100px;
+    background-color: rgba(128, 128, 128, 0.378);
+    padding:10px;
+    height:fit-content;
+    width:fit-content;
+}
+
+.container_main_one,.container_main_two{
+    display: flex;
+    flex-direction: row;
+
+    height:fit-content;
+    width:fit-content;
+    gap:20px;
+    justify-content: space-around;
+   
+    margin:20px;
+   
+}
+.Dog_One,.Dog_Two,.Dog_Three,.Dog_Four,.Dog_Five,.Dog_Six,.Dog_Seven,.Dog_Eight{
+    height:190px;
+    width:150px;
+    padding:2px;
+    text-align: center;
+    border:2px solid black;
+    background-color: white;
+   
+   
+
+}
+.Dog_One img,.Dog_Two img,.Dog_Three img, .Dog_Four img,.Dog_Five img,.Dog_Six img,.Dog_Seven img,.Dog_Eight img{
+    height:120px;
+    width:120px;
+    margin:10px;
+    
+}
+.Dog_One h1,.Dog_Two h1,.Dog_Three h1,.Dog_Four h1,.Dog_Five h1,.Dog_Six, h1 ,.Dog_Seven h1,.Dog_Eight h1{
+
+    bottom: 25px;
+    font-weight:400;
+    font-size: large;
+
+}
+
+
+
+
